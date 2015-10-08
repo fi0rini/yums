@@ -1,12 +1,11 @@
 module.exports = function (yums) {
-	yums.watch('**/*.js',		// path, file, glob to watch				
-		( path ) => {
-			// do stuff with file
-			console.log(path);
-		}
+	yums.options({
+
+	});
+
+	yums.watch(
+		'**/*.js',		// path, file, glob to watch				
+		( path ) => 
+			console.log(path)
 	);
-
-	yums.watch({
-
-	})
 }
