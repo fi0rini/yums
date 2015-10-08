@@ -1,0 +1,20 @@
+{
+  "name": "yums",
+  "version": "0.0.1",
+  "description": "yummy file muncher",
+  "repository": {
+    "url": "https://github.com/nf071590/yums",
+    "type": "git"
+  },
+  "author": "nick fiorini <nf071590@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^1.2.0",
+    "extend": "^3.0.0"
+  },
+  "engine": ">=4.0.0",
+  "main": "index.js",
+  "bin": {
+    "yums": "index.js"
+  }
+}
